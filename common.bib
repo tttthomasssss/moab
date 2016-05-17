@@ -7,6 +7,23 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 
+@string{CL = "Computational Linguistics"}
+@string{TACL = "Transactions of the Association for Computational Linguistics"}
+
+@string{ACL_1994 = "Proceedings of the 32nd Annual Meeting of the Association for Computational Linguistics"}
+@string{ACL_2013 = "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"}
+@string{ACL_2014 = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"}
+@string{EMNLP_2008 = "Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing"}
+@string{EMNLP_2010 = "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing"}
+@string{EMNLP_2011 = "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing"}
+@string{EMNLP_2012 = "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"}
+@string{EMNLP_2015 = "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"}
+
+@string{IWCS_2011 = "Proceedings of the Ninth International Conference on Computational Semantics"}
+@string{IWCS_2013 = "Proceedings of the Tenth International Conference on Computational Semantics"}
+
+@string{starsem_20082012 = "{*SEM 2012}: The First Joint Conference on Lexical and Computational Semantics -- Volume 1: Proceedings of the main conference and the shared task, and Volume 2: Proceedings of the Sixth International Workshop on Semantic Evaluation {(SemEval 2012)}"}
+
 
 
 @inproceedings{Radovanovic_2010,
@@ -243,14 +260,14 @@
 	Acmid = {2002681},
 	Address = {Stroudsburg, PA, USA},
 	Author = {Garrette, Dan and Erk, Katrin and Mooney, Raymond},
-	Booktitle = {Proceedings of the Ninth International Conference on Computational Semantics},
+	Booktitle = IWCS_2011,
 	Date-Added = {2016-04-20 15:12:39 +0000},
 	Date-Modified = {2016-04-20 15:12:47 +0000},
 	Location = {Oxford, United Kingdom},
 	Numpages = {10},
 	Pages = {105--114},
 	Publisher = {Association for Computational Linguistics},
-	Series = {IWCS '11},
+%	Series = {IWCS '11},
 	Title = {Integrating Logical Representations with Probabilistic Information Using Markov Logic},
 	Url = {http://dl.acm.org/citation.cfm?id=2002669.2002681},
 	Year = {2011},
@@ -265,7 +282,7 @@
 	Doi = {10.1162/coli.2007.33.2.161},
 	Issn = {0891-2017},
 	Issue_Date = {June 2007},
-	Journal = {Comput. Linguist.},
+	Journal = CL,
 	Month = jun,
 	Number = {2},
 	Numpages = {39},
@@ -564,7 +581,7 @@
 	Doi = {10.1162/coli_a_00016},
 	Issn = {0891-2017},
 	Issue_Date = {December 2010},
-	Journal = {Comput. Linguist.},
+	Journal = CL,
 	Link = {http://dx.doi.org/10.1162/coli_a_00016},
 	Month = {dec},
 	Number = {4},
@@ -579,7 +596,7 @@
 @inproceedings{Baroni_2010,
 	Address = {Cambridge, MA},
 	Author = {Baroni, Marco and Zamparelli, Roberto},
-	Booktitle = {Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing},
+	Booktitle = EMNLP_2010,
 	Date-Added = {2015-07-30 13:34:52 +0000},
 	Date-Modified = {2016-03-09 08:33:40 +0000},
 	Link = {http://www.aclweb.org/anthology/D10-1115},
@@ -625,7 +642,7 @@
 @inproceedings{Baroni_2014,
 	Address = {Baltimore, Maryland},
 	Author = {Baroni, Marco and Dinu, Georgiana and Kruszewski, Germ\'{a}n},
-	Booktitle = {Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+	Booktitle = ACL_2014,
 	Date-Added = {2015-07-31 15:12:20 +0000},
 	Date-Modified = {2015-07-31 15:12:26 +0000},
 	Link = {http://www.aclweb.org/anthology/P14-1023},
@@ -710,8 +727,12 @@
 
 @inproceedings{Berant_2014,
 	Author = {Jonathan Berant and Percy Liang},
-	Booktitle = {Proceedings of ACL},
+	Booktitle = ACL_2014,
 	Title = {Semantic Parsing via Paraphrasing},
+	address   = {Baltimore, Maryland},
+  	publisher = {Association for Computational Linguistics},
+  	pages     = {1415--1425},
+  	url       = {http://www.aclweb.org/anthology/P14-1133}
 	Year = {2014}}
 
 @inproceedings{Bergsma_2010,
@@ -760,7 +781,7 @@
 @inproceedings{Blacoe_2012,
 	Address = {Jeju Island, Korea},
 	Author = {Blacoe, William and Lapata, Mirella},
-	Booktitle = {Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
+	Booktitle = EMNLP_2012,
 	Date-Added = {2015-07-30 08:29:34 +0000},
 	Date-Modified = {2015-07-30 08:29:40 +0000},
 	Link = {http://www.aclweb.org/anthology/D12-1050},
@@ -1117,7 +1138,7 @@
 @inproceedings{Dagan_1994,
 	Address = {Las Cruces, New Mexico, USA},
 	Author = {Ido Dagan and Fernando Pereira and Lillian Lee},
-	Booktitle = {Proceedings of the 32nd Annual Meeting of the Association for Computational Linguistics},
+	Booktitle = ACL_1994,
 	Date-Added = {2016-03-09 08:38:27 +0000},
 	Date-Modified = {2016-03-09 08:38:32 +0000},
 	Doi = {10.3115/981732.981770},
@@ -1215,9 +1236,14 @@
 
 @inproceedings{Dinu_2012,
 	Author = {Georgiana Dinu and Stefan Thater},
-	Booktitle = {Proceedings of the First Joint Conference on Lexical and Computational Semantics},
 	Title = {Saarland: Vector-based models of semantic textual similarity},
-	Year = {2012}}
+	booktitle = starsem_2012,
+  	month     = {7-8 June},
+  	year      = {2012},
+  	address   = {Montr\'{e}al, Canada},
+  	publisher = {Association for Computational Linguistics},
+  	pages     = {603--607},
+  	url       = {http://www.aclweb.org/anthology/S12-1089}}
 
 @inproceedings{Dinu_2013,
 	Address = {Sofia, Bulgaria},
@@ -1293,7 +1319,7 @@
 @inproceedings{Erk_2008,
 	Address = {Honolulu, Hawaii},
 	Author = {Erk, Katrin and Pad\'{o}, Sebastian},
-	Booktitle = {Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing},
+	Booktitle = EMNLP_2008,
 	Date-Modified = {2016-04-20 14:30:53 +0000},
 	Link = {http://www.aclweb.org/anthology/D08-1094},
 	Month = {October},
@@ -1376,8 +1402,9 @@
 
 @inproceedings{Ferraresi_2008,
 	Author = {Adriano Ferraresi and Eros Zanchetta and Marco Baroni and Silvia Bernardini},
-	Booktitle = {Proceedings of LREC},
+	Booktitle = {Proceedings of the WAC4 Workshop at LREC},
 	Title = {Introducing and evaluating ukWaC, a very Large Web-Derived Corpus of English},
+	Location={Marrakech},
 	Year = {2008}}
 
 @inproceedings{Ferraro_2015,
@@ -1558,7 +1585,7 @@
 
 @article{Grefenstette_2013,
 	Author = {Edward Grefenstette and Georgiana Dinu and Yao-Zhong Zhang and Mehrnoosh Sadrzadeh and Marco Baroni},
-	Journal = {Proceedings of the 10th International Conference on Computational Semantics (IWCS 2013)},
+	Journal = IWCS_2013,
 	Link = {http://aclweb.org/anthology/W/W13/W13-0112.pdf},
 	Title = {Multi-Step Regression Learning for Compositional Distributional Semantics},
 	Year = {2013}}
@@ -1712,7 +1739,7 @@
 @inproceedings{Hermann_2013,
 	Address = {Sofia, Bulgaria},
 	Author = {Hermann, Karl Moritz and Blunsom, Phil},
-	Booktitle = {Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+	Booktitle = ACL_2013,
 	Date-Added = {2015-07-08 12:27:10 +0000},
 	Date-Modified = {2015-07-08 12:27:16 +0000},
 	Link = {http://www.aclweb.org/anthology/P13-1088},
@@ -1739,7 +1766,7 @@
 	Author = {Felix Hill and Roi Reichart and Anna Korhonen},
 	Date-Added = {2016-03-09 11:13:14 +0000},
 	Date-Modified = {2016-03-09 14:53:25 +0000},
-	Journal = {Computational Linguistics},
+	Journal = CL,
 	Month = {December},
 	Number = {4},
 	Pages = {665--695},
@@ -2143,7 +2170,7 @@
 	Author = {Lambek, J.},
 	Booktitle = {Logical Aspects of Computational Linguistics},
 	Doi = {10.1007/3-540-48975-4_1},
-	Editor = {Lecomte, Alain and Lamarche, Fran{\~A}{\S}ois and Perrier, Guy},
+	Editor = {Lecomte, Alain and Lamarche, Fran\c{c}ois and Perrier, Guy},
 	Isbn = {978-3-540-65751-4},
 	Language = {English},
 	Link = {http://dx.doi.org/10.1007/3-540-48975-4_1},
@@ -2375,7 +2402,7 @@
 	Date-Added = {2015-07-08 11:45:43 +0000},
 	Date-Modified = {2015-07-08 11:45:49 +0000},
 	Issn = {2307-387X},
-	Journal = {Transactions of the Association for Computational Linguistics},
+	Journal = TACL,
 	Link = {https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/570},
 	Pages = {211--225},
 	Title = {Improving Distributional Similarity with Lessons Learned from Word Embeddings},
@@ -2385,7 +2412,7 @@
 
 @inproceedings{Lewis_2013,
 	Author = {Mike Lewis and Mark Steedman},
-	Booktitle = {Transactions of the Association for Computational Linguistics (TACL)},
+	Booktitle = TACL,
 	Pages = {179--192},
 	Title = {Combined Distributional and Logical Semantics},
 	Year = {2013}}
@@ -2393,7 +2420,7 @@
 @inproceedings{Li_2015,
 	Address = {Lisbon, Portugal},
 	Author = {Li, Jiwei and Jurafsky, Dan},
-	Booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+	Booktitle = EMNLP_2015,
 	Date-Added = {2015-12-22 15:42:45 +0000},
 	Date-Modified = {2015-12-22 15:42:59 +0000},
 	Link = {http://aclweb.org/anthology/D15-1200},
