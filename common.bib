@@ -2,39 +2,349 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Thomas Kober at 2016-05-15 12:18:30 +0100 
+%% Created for Thomas Kober at 2016-12-28 16:38:05 +0000 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
-@string{CL = "Computational Linguistics"}
-@string{TACL = "Transactions of the Association for Computational Linguistics"}
-@string{JAIR = "Journal of Artificial Intelligence Research"}
+
+@string{acl_1994 = {Proceedings of the 32nd Annual Meeting of the Association for Computational Linguistics}}
+
+@string{acl_1998 = {Proceedings of the 36th Annual Meeting of the Association for Computational Linguistics and 17th International Conference on Computational Linguistics}}
+
+@string{acl_1999 = {Proceedings of the 37th Annual Meeting of the Association for Computational Linguistics}}
+
+@string{acl_2008 = {Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics: Human Language Technology Conference}}
+
+@string{acl_2010 = {Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics}}
+
+@string{acl_2013 = {Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}}
+
+@string{acl_2014 = {Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}}
+
+@string{cl = {Computational Linguistics}}
+
+@string{coling_2004 = {Proceedings of the 20th International Conference on Computational Linguistics}}
+
+@string{emnlp_2008 = {Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing}}
+
+@string{emnlp_2010 = {Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing}}
+
+@string{emnlp_2011 = {Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing}}
+
+@string{emnlp_2012 = {Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning}}
+
+@string{emnlp_2013 = {Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing}}
+
+@string{emnlp_2014 = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing}}
+
+@string{emnlp_2015 = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing}}
+
+@string{iwcs_2011 = {Proceedings of the Ninth International Conference on Computational Semantics}}
+
+@string{iwcs_2013 = {Proceedings of the Tenth International Conference on Computational Semantics}}
+
+@string{jair = {Journal of Artificial Intelligence Research}}
+
+@string{starsem_2012 = {{*SEM 2012}: The First Joint Conference on Lexical and Computational Semantics -- Volume 1: Proceedings of the main conference and the shared task, and Volume 2: Proceedings of the Sixth International Workshop on Semantic Evaluation {(SemEval 2012)}}}
+
+@string{tacl = {Transactions of the Association for Computational Linguistics}}
 
 
-@string{ACL_1994 = "Proceedings of the 32nd Annual Meeting of the Association for Computational Linguistics"}
-@string{ACL_1998= "Proceedings of the 36th Annual Meeting of the Association for Computational Linguistics and 17th International Conference on Computational Linguistics"}
-@string{ACL_1999 = "Proceedings of the 37th Annual Meeting of the Association for Computational Linguistics"}
-@string{ACL_2008 = "Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics: Human Language Technology Conference"}
-@string{ACL_2010 = "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics"}
-@string{ACL_2013 = "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"}
-@string{ACL_2014 = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"}
-@string{EMNLP_2008 = "Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing"}
-@string{EMNLP_2010 = "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing"}
-@string{EMNLP_2011 = "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing"}
-@string{EMNLP_2012 = "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"}
-@string{EMNLP_2013 = "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing"}
-@string{EMNLP_2014 = "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing"}
-@string{EMNLP_2015 = "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"}
+@article{Kiperwasser_2016b,
+	Abstract = {We present a simple and effective scheme for dependency parsing which is based on bidirectional-LSTMs (BiLSTMs). Each sentence token is associated with a BiLSTM vector representing the token in its sentential context, and feature vectors are constructed by concatenating a few BiLSTM vectors. The BiLSTM is trained jointly with the parser objective, resulting in very effective feature extractors for parsing. We demonstrate the effectiveness of the approach by applying it to a greedy transition-based parser as well as to a globally optimized graph-based parser. The resulting parsers have very simple architectures, and match or surpass the state-of-the-art accuracies on English and Chinese.},
+	Author = {Kiperwasser, Eliyahu and Goldberg, Yoav},
+	Date-Added = {2016-12-28 16:37:57 +0000},
+	Date-Modified = {2016-12-28 16:38:05 +0000},
+	Issn = {2307-387X},
+	Journal = {Transactions of the Association for Computational Linguistics},
+	Pages = {313--327},
+	Title = {Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations},
+	Url = {https://transacl.org/ojs/index.php/tacl/article/view/885},
+	Volume = {4},
+	Year = {2016},
+	Bdsk-Url-1 = {https://transacl.org/ojs/index.php/tacl/article/view/885}}
 
-@string{COLING_2004 = "Proceedings of the 20th International Conference on Computational Linguistics"}
+@article{Kiperwasser_2016a,
+	Abstract = {We suggest a compositional vector representation of parse trees that relies on a recursive combination of recurrent-neural network encoders. To demonstrate its effectiveness, we use the representation as the backbone of a greedy, bottom-up dependency parser, achieving very strong accuracies for English and Chinese, without relying on external word embeddings. The parser{\^a}€{\texttrademark}s  implementation is available for download at the first author{\^a}€{\texttrademark}s webpage.},
+	Author = {Kiperwasser, Eliyahu and Goldberg, Yoav},
+	Date-Added = {2016-12-28 16:37:27 +0000},
+	Date-Modified = {2016-12-28 16:37:40 +0000},
+	Issn = {2307-387X},
+	Journal = {Transactions of the Association for Computational Linguistics},
+	Pages = {445--461},
+	Title = {Easy-First Dependency Parsing with Hierarchical Tree LSTMs},
+	Url = {https://www.transacl.org/ojs/index.php/tacl/article/view/798},
+	Volume = {4},
+	Year = {2016},
+	Bdsk-Url-1 = {https://www.transacl.org/ojs/index.php/tacl/article/view/798}}
 
-@string{IWCS_2011 = "Proceedings of the Ninth International Conference on Computational Semantics"}
-@string{IWCS_2013 = "Proceedings of the Tenth International Conference on Computational Semantics"}
+@inproceedings{Kiros_2015,
+	Author = {Kiros, Ryan and Zhu, Yukun and Salakhutdinov, Ruslan R and Zemel, Richard and Urtasun, Raquel and Torralba, Antonio and Fidler, Sanja},
+	Booktitle = {Advances in Neural Information Processing Systems},
+	Date-Added = {2016-12-28 13:56:24 +0000},
+	Date-Modified = {2016-12-28 13:56:59 +0000},
+	Pages = {3294--3302},
+	Title = {Skip-Thought Vectors},
+	Url = {http://papers.nips.cc/paper/5950-skip-thought-vectors.pdf},
+	Year = {2015},
+	Bdsk-Url-1 = {http://papers.nips.cc/paper/5950-skip-thought-vectors.pdf}}
 
-@string{starsem_2012 = "{*SEM 2012}: The First Joint Conference on Lexical and Computational Semantics -- Volume 1: Proceedings of the main conference and the shared task, and Volume 2: Proceedings of the Sixth International Workshop on Semantic Evaluation {(SemEval 2012)}"}
+@inproceedings{Kober_2016,
+	Address = {Austin, Texas},
+	Author = {Kober, Thomas and Weeds, Julie and Reffin, Jeremy and Weir, David},
+	Booktitle = {Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing},
+	Date-Added = {2016-12-28 13:31:31 +0000},
+	Date-Modified = {2016-12-28 13:31:36 +0000},
+	Month = {November},
+	Pages = {1691--1702},
+	Publisher = {Association for Computational Linguistics},
+	Title = {Improving Sparse Word Representations with Distributional Inference for Semantic Composition},
+	Url = {https://aclweb.org/anthology/D16-1175},
+	Year = {2016},
+	Bdsk-Url-1 = {https://aclweb.org/anthology/D16-1175}}
+
+@inproceedings{Iacobacci_2015,
+	Address = {Beijing, China},
+	Author = {Iacobacci, Ignacio and Pilehvar, Mohammad Taher and Navigli, Roberto},
+	Booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+	Date-Added = {2016-12-28 12:36:17 +0000},
+	Date-Modified = {2016-12-28 12:36:26 +0000},
+	Month = {July},
+	Pages = {95--105},
+	Publisher = {Association for Computational Linguistics},
+	Title = {SensEmbed: Learning Sense Embeddings for Word and Relational Similarity},
+	Url = {http://www.aclweb.org/anthology/P15-1010},
+	Year = {2015},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/P15-1010}}
+
+@inproceedings{Loper_2002,
+	Author = {Loper, Edward and Bird, Steven},
+	Booktitle = {Proceedings of the Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics - Volume 1},
+	Date-Added = {2016-12-28 12:14:22 +0000},
+	Date-Modified = {2016-12-28 12:14:58 +0000},
+	Doi = {10.3115/1118108.1118117},
+	Location = {Philadelphia, Pennsylvania},
+	Pages = {63--70},
+	Publisher = {Association for Computational Linguistics},
+	Title = {NLTK: The Natural Language Toolkit},
+	Year = {2002},
+	Bdsk-Url-1 = {http://dx.doi.org/10.3115/1118108.1118117}}
+
+@inproceedings{Miller_1993,
+	Author = {Miller, George A. and Leacock, Claudia and Tengi, Randee and Bunker, Ross T.},
+	Booktitle = {Proceedings of the Arpa Workshop on Human Language Technology},
+	Date-Added = {2016-12-28 04:56:41 +0000},
+	Date-Modified = {2016-12-28 04:58:06 +0000},
+	Pages = {303--308},
+	Title = {A semantic concordance},
+	Year = {1993}}
+
+@inproceedings{Kartsaklis_2013a,
+	Author = {Kartsaklis, Dimitri and Sadrzadeh, Mehrnoosh and Pulman, Stephen},
+	Booktitle = {Proceedings of CoNLL},
+	Date-Added = {2016-12-28 03:46:59 +0000},
+	Date-Modified = {2016-12-28 03:46:59 +0000},
+	Pages = {114--123},
+	Publisher = {Association for Computational Linguistics},
+	Title = {Separating Disambiguation from Composition in Distributional Semantics},
+	Url = {http://www.aclweb.org/anthology/W13-3513},
+	Year = {2013},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/W13-3513}}
+
+@inproceedings{Kartsaklis_2013b,
+	Author = {Kartsaklis, Dimitri and Sadrzadeh, Mehrnoosh},
+	Booktitle = {Proceedings of EMNLP},
+	Date-Added = {2016-12-28 03:46:59 +0000},
+	Date-Modified = {2016-12-28 03:46:59 +0000},
+	Pages = {1590--1601},
+	Publisher = {Association for Computational Linguistics},
+	Title = {Prior Disambiguation of Word Tensors for Constructing Sentence Vectors},
+	Url = {http://www.aclweb.org/anthology/D13-1166},
+	Year = {2013},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/D13-1166}}
+
+@inproceedings{Kartsaklis_2014,
+	Author = {Dimitri Kartsaklis and Mehrnoosh Sadrzadeh},
+	Booktitle = {Proceedings of the 11th Workshop on Quantum Physics and Logic (QPL)},
+	Date-Added = {2016-12-28 03:46:48 +0000},
+	Date-Modified = {2016-12-28 03:46:48 +0000},
+	Title = {A Study of Entanglement in a Categorical Framework of Natural Language},
+	Year = {2014}}
+
+@inproceedings{Grefenstette_2011b,
+	Author = {Grefenstette, Edward and Sadrzadeh, Mehrnoosh},
+	Booktitle = {Proceedings of EMNLP},
+	Date-Added = {2016-12-28 03:45:39 +0000},
+	Date-Modified = {2016-12-28 03:45:47 +0000},
+	Pages = {1394--1404},
+	Publisher = {Association for Computational Linguistics},
+	Title = {Experimental Support for a Categorical Compositional Distributional Model of Meaning},
+	Url = {http://www.aclweb.org/anthology/D11-1129},
+	Year = {2011},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/D11-1129}}
+
+@inproceedings{Pham_2013,
+	Address = {Potsdam, Germany},
+	Author = {Pham, Nghia and Bernardi, Raffaella and Zhang, Yao Zhong and Baroni, Marco},
+	Booktitle = {Proceedings of IWCS 2013 Workshop Towards a Formal Distributional Semantics},
+	Date-Added = {2016-12-28 03:13:00 +0000},
+	Date-Modified = {2016-12-28 03:13:06 +0000},
+	Month = {March},
+	Pages = {21--29},
+	Publisher = {Association for Computational Linguistics},
+	Title = {Sentence paraphrase detection: When determiners and word order make the difference},
+	Url = {http://www.aclweb.org/anthology/W13-0603},
+	Year = {2013},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/W13-0603}}
+
+@inproceedings{Bernardi_2013,
+	Address = {Sofia, Bulgaria},
+	Author = {Bernardi, Raffaella and Dinu, Georgiana and Marelli, Marco and Baroni, Marco},
+	Booktitle = {Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+	Date-Added = {2016-12-28 03:10:48 +0000},
+	Date-Modified = {2016-12-28 03:10:56 +0000},
+	Month = {August},
+	Pages = {53--57},
+	Publisher = {Association for Computational Linguistics},
+	Title = {A relatedness benchmark to test the role of determiners in compositional distributional semantics},
+	Url = {http://www.aclweb.org/anthology/P13-2010},
+	Year = {2013},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/P13-2010}}
+
+@inproceedings{Marelli_2014,
+	Address = {Reykjavik, Iceland},
+	Author = {Marco Marelli and Stefano Menini and Marco Baroni and Luisa Bentivogli and Raffaella bernardi and Roberto Zamparelli},
+	Booktitle = {Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
+	Date = {26-31},
+	Date-Added = {2016-12-28 03:06:27 +0000},
+	Date-Modified = {2016-12-28 03:06:34 +0000},
+	Editor = {Nicoletta Calzolari and Khalid Choukri and Thierry Declerck and Hrafn Loftsson and Bente Maegaard and Joseph Mariani and Asuncion Moreno and Jan Odijk and Stelios Piperidis},
+	Isbn = {978-2-9517408-8-4},
+	Language = {english},
+	Month = {May},
+	Note = {ACL Anthology Identifier: L14-1314},
+	Pages = {216--223},
+	Publisher = {European Language Resources Association (ELRA)},
+	Title = {A SICK cure for the evaluation of compositional distributional semantic models},
+	Url = {http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf},
+	Year = {2014},
+	Bdsk-Url-1 = {http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf}}
+
+@inproceedings{Bowman_2015,
+	Address = {Lisbon, Portugal},
+	Author = {Bowman, Samuel R. and Angeli, Gabor and Potts, Christopher and Manning, Christopher D.},
+	Booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+	Date-Added = {2016-12-28 03:05:45 +0000},
+	Date-Modified = {2016-12-28 03:05:52 +0000},
+	Month = {September},
+	Pages = {632--642},
+	Publisher = {Association for Computational Linguistics},
+	Title = {A large annotated corpus for learning natural language inference},
+	Url = {http://aclweb.org/anthology/D15-1075},
+	Year = {2015},
+	Bdsk-Url-1 = {http://aclweb.org/anthology/D15-1075}}
+
+@inproceedings{Manandhar_2010,
+	Address = {Uppsala, Sweden},
+	Author = {Manandhar, Suresh and Klapaftis, Ioannis and Dligach, Dmitriy and Pradhan, Sameer},
+	Booktitle = {Proceedings of the 5th International Workshop on Semantic Evaluation},
+	Date-Added = {2016-12-27 17:10:03 +0000},
+	Date-Modified = {2016-12-27 17:10:15 +0000},
+	Month = {July},
+	Pages = {63--68},
+	Publisher = {Association for Computational Linguistics},
+	Title = {SemEval-2010 Task 14: Word Sense Induction \& Disambiguation},
+	Url = {http://www.aclweb.org/anthology/S10-1011},
+	Year = {2010},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/S10-1011}}
+
+@techreport{Zweig_2011,
+	Abstract = {
+
+Work on modeling semantics in text is progressing quickly, yet there are few existing public datasets which authors can use to measure and compare their systems. This work takes a step towards addressing this issue. We present the MSR Sentence Completion Challenge Data, which consists of 1,040 sentences, each of which has four impostor sentences, in which a single (fixed) word in the original sentence has been replaced by an impostor word with similar occurrence statistics. For each sentence the task is then to determine which of the five choices for that word is the correct one. This data was constructed from Project Gutenberg data. Seed sentences were selected from Sherlock Holmes novels, and then imposter words were suggested with the aid of a language model trained on over 500 19th century novels. The language model was used to compute 30 alternative words for a given low frequency word in a sentence, and human judges then picked the 4 best impostor words, based on a set of provided guidelines. Although the data presented here will not be changed, this is still a work in progress, and we plan to add similar datasets based on other sources. This technical report is a living document and will be updated appropriately as new datasets are constructed and new results on existing datasets (for example, using human subjects) are reported.
 
 
+},
+	Author = {Zweig, Geoffrey and Burges, J.C. Chris},
+	Date-Added = {2016-12-27 17:06:46 +0000},
+	Date-Modified = {2016-12-28 11:55:11 +0000},
+	Title = {The Microsoft Research Sentence Completion Challenge},
+	Url = {https://www.microsoft.com/en-us/research/publication/the-microsoft-research-sentence-completion-challenge/},
+	Year = {2011},
+	Bdsk-Url-1 = {https://www.microsoft.com/en-us/research/publication/the-microsoft-research-sentence-completion-challenge/}}
+
+@inproceedings{Agirre_2016,
+	Address = {San Diego, California},
+	Author = {Agirre, Eneko and Banea, Carmen and Cer, Daniel and Diab, Mona and Gonzalez-Agirre, Aitor and Mihalcea, Rada and Rigau, German and Wiebe, Janyce},
+	Booktitle = {Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016)},
+	Date-Added = {2016-12-27 17:02:43 +0000},
+	Date-Modified = {2016-12-27 17:02:51 +0000},
+	Month = {June},
+	Pages = {497--511},
+	Publisher = {Association for Computational Linguistics},
+	Title = {SemEval-2016 Task 1: Semantic Textual Similarity, Monolingual and Cross-Lingual Evaluation},
+	Url = {http://www.aclweb.org/anthology/S16-1081},
+	Year = {2016},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/S16-1081}}
+
+@inproceedings{Agirre_2015,
+	Address = {Denver, Colorado},
+	Author = {Agirre, Eneko and Banea, Carmen and Cardie, Claire and Cer, Daniel and Diab, Mona and Gonzalez-Agirre, Aitor and Guo, Weiwei and Lopez-Gazpio, Inigo and Maritxalar, Montse and Mihalcea, Rada and Rigau, German and Uria, Larraitz and Wiebe, Janyce},
+	Booktitle = {Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015)},
+	Date-Added = {2016-12-27 17:01:49 +0000},
+	Date-Modified = {2016-12-27 17:01:56 +0000},
+	Month = {June},
+	Pages = {252--263},
+	Publisher = {Association for Computational Linguistics},
+	Title = {SemEval-2015 Task 2: Semantic Textual Similarity, English, Spanish and Pilot on Interpretability},
+	Url = {http://www.aclweb.org/anthology/S15-2045},
+	Year = {2015},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/S15-2045}}
+
+@inproceedings{Ganitkevitch_2013,
+	Address = {Atlanta, Georgia},
+	Author = {Ganitkevitch, Juri and {Van Durme}, Benjamin and Callison-Burch, Chris},
+	Booktitle = {Proceedings of NAACL-HLT},
+	Date-Added = {2016-12-27 16:56:37 +0000},
+	Date-Modified = {2016-12-27 16:56:48 +0000},
+	Month = {June},
+	Pages = {758--764},
+	Publisher = {Association for Computational Linguistics},
+	Title = {{PPDB}: The Paraphrase Database},
+	Url = {http://cs.jhu.edu/~ccb/publications/ppdb.pdf},
+	Year = {2013},
+	Bdsk-Url-1 = {http://cs.jhu.edu/~ccb/publications/ppdb.pdf}}
+
+@inproceedings{Dolan_2004,
+	Address = {Geneva, Switzerland},
+	Author = {Dolan, Bill and Quirk, Chris and Brockett, Chris},
+	Booktitle = {Proceedings of Coling 2004},
+	Date-Added = {2016-12-27 16:55:15 +0000},
+	Date-Modified = {2016-12-27 16:55:20 +0000},
+	Month = {Aug 23--Aug 27},
+	Pages = {350--356},
+	Publisher = {COLING},
+	Title = {Unsupervised Construction of Large Paraphrase Corpora: Exploiting Massively Parallel News Sources},
+	Year = 2004}
+
+@inbook{Landes_1998,
+	Author = {Landes, Shari and Leacock, Claudia and Fellbaum, Christiane},
+	Chapter = {8},
+	Date-Added = {2016-12-27 15:14:38 +0000},
+	Date-Modified = {2016-12-27 15:15:57 +0000},
+	Title = {Buidling semantic concordances},
+	Year = {1998}}
+
+@inproceedings{Batchkarov_2016,
+	Author = {Batchkarov, Miroslav and Kober, Thomas and Reffin, Jeremy and Weeds, Julie and Weir, David},
+	Booktitle = {Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for NLP},
+	Date-Added = {2016-12-23 04:32:24 +0000},
+	Date-Modified = {2016-12-23 04:36:28 +0000},
+	Pages = {7--12},
+	Publisher = {Association for Computational Linguistics},
+	Title = {A critique of word similarity as a method of evaluating distributional semantic models},
+	Year = {2016}}
 
 @inproceedings{Radovanovic_2010,
 	Acmid = {1835482},
@@ -735,14 +1045,15 @@
 	Year = {2010}}
 
 @inproceedings{Berant_2014,
+	Address = {Baltimore, Maryland},
 	Author = {Jonathan Berant and Percy Liang},
 	Booktitle = ACL_2014,
+	Pages = {1415--1425},
+	Publisher = {Association for Computational Linguistics},
 	Title = {Semantic Parsing via Paraphrasing},
-	address   = {Baltimore, Maryland},
-  	publisher = {Association for Computational Linguistics},
-  	pages     = {1415--1425},
-  	url       = {http://www.aclweb.org/anthology/P14-1133},
-	Year = {2014}}
+	Url = {http://www.aclweb.org/anthology/P14-1133},
+	Year = {2014},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/P14-1133}}
 
 @inproceedings{Bergsma_2010,
 	Address = {Cambridge, MA},
@@ -1244,15 +1555,16 @@
 	Bdsk-Url-1 = {http://www.aclweb.org/anthology/D10-1113}}
 
 @inproceedings{Dinu_2012,
+	Address = {Montr\'{e}al, Canada},
 	Author = {Georgiana Dinu and Stefan Thater},
+	Booktitle = starsem_2012,
+	Month = {7-8 June},
+	Pages = {603--607},
+	Publisher = {Association for Computational Linguistics},
 	Title = {Saarland: Vector-based models of semantic textual similarity},
-	booktitle = starsem_2012,
-  	month     = {7-8 June},
-  	year      = {2012},
-  	address   = {Montr\'{e}al, Canada},
-  	publisher = {Association for Computational Linguistics},
-  	pages     = {603--607},
-  	url       = {http://www.aclweb.org/anthology/S12-1089}}
+	Url = {http://www.aclweb.org/anthology/S12-1089},
+	Year = {2012},
+	Bdsk-Url-1 = {http://www.aclweb.org/anthology/S12-1089}}
 
 @inproceedings{Dinu_2013,
 	Address = {Sofia, Bulgaria},
@@ -1412,8 +1724,8 @@
 @inproceedings{Ferraresi_2008,
 	Author = {Adriano Ferraresi and Eros Zanchetta and Marco Baroni and Silvia Bernardini},
 	Booktitle = {Proceedings of the WAC4 Workshop at LREC},
+	Location = {Marrakech},
 	Title = {Introducing and evaluating ukWaC, a very Large Web-Derived Corpus of English},
-	Location={Marrakech},
 	Year = {2008}}
 
 @inproceedings{Ferraro_2015,
@@ -2648,8 +2960,8 @@
 	Address = {Prague, Czech Republic},
 	Author = {Diana McCarthy and Robert Navigli},
 	Booktitle = {Proceedings of the 4th International Workshop on Semantic Evaluations (SemEval-2007)},
+	Pages = {48--53},
 	Title = {SemEval-2007 Task 10: English Lexical Substitution Task},
-	pages = {48--53},
 	Year = {2007}}
 
 @inproceedings{McIntosh_2010,
@@ -3792,9 +4104,9 @@ compositionality really want.},
 @article{Weeds_2005,
 	Author = {Julie Weeds and David Weir},
 	Journal = CL,
+	Pages = {439-476},
 	Title = {Co-occurrence Retrieval: a Flexible Framework for Distributional Similarity},
 	Volume = {31(4)},
-	pages = {439-476},
 	Year = {2005}}
 
 @inproceedings{Weeds_2014,
@@ -3966,37 +4278,27 @@ compositionality really want.},
 	Year = {2012}}
 
 @inproceedings{Hermann_2012,
-    Author = {Karl M Hermann and Phil Blunsom and Stephen Pulman},
-    Title = {An Unsupervised Ranking Model for Noun-Noun Compositionality},
-    Booktitle = {Proceedings of the First Joint Conference on Lexical and Computational Semantics (*SEM)},
-    Year = {2012}}
-    
+	Author = {Karl M Hermann and Phil Blunsom and Stephen Pulman},
+	Booktitle = {Proceedings of the First Joint Conference on Lexical and Computational Semantics (*SEM)},
+	Title = {An Unsupervised Ranking Model for Noun-Noun Compositionality},
+	Year = {2012}}
+
 @inproceedings{Sag_2002,
 	Author = {Ivan Sag and Timothy Baldwin and Francis Bond and Ann Copestake and Dan Flickinger},
-	Title = {Multiword Expressions: A Pain in the Neck for NLP},
 	Booktitle = {Proceedings of CICLING},
+	Title = {Multiword Expressions: A Pain in the Neck for NLP},
 	Year = {2002}}
-	
 
 @incollection{Montague_1970,
 	Author = {Richard Montague},
-	Title = {English as a Formal Language},
-	Editor = {Bruno Visentini},
 	Booktitle = {Linguaggi nella societ\`a e nella tecnica},
+	Editor = {Bruno Visentini},
 	Pages = {189--223},
+	Title = {English as a Formal Language},
 	Year = 1970}
 
 @article{Weir_2016,
 	Author = {David Weir and Julie Weeds and Jeremy Reffin and Thomas Kober},
-	Title = {Aligning packed dependency trees: a theory of composition for distributional semantics},
 	Journal = {Computational Linguistics, special issue on Formal Distributional Semantics},
-	Year = 2016
-	}
-	
-@inproceedings{Kober_2016,
-	Author={Thomas Kober and Julie Weeds and Jeremy Reffin and David Weir},
-	Title={Improving Sparse Word Representations with Distributional Inference for Semantic Composition},
-	Booktitle={Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2016)},
-	Year = 2016
-	}
-	 
+	Title = {Aligning packed dependency trees: a theory of composition for distributional semantics},
+	Year = 2016}
